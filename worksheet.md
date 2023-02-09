@@ -6,11 +6,11 @@
 <!--- For this worksheet, answer the following questions --->
 
 ## Q1: What is a bioinformatics pipeline?
-Answer: 
+Answer: a bioinformatics pipeline is an algorithm that processes sequences. If the program already exists you don't need to write it. 
 
 
 ## Q2: What are the three basic filetypes discussed in this repository? What information do they contain?
-Answer: 
+Answer: Fata/fastq, SAM/BAM, and VCF (variant call format)
 
 ## Q2: What does a general bioinformatics pipeline look like? Draw a schematic of a pipeline (using boxes and arrows) and add the image file name to the <insert-file-name-here> text below (png or jpg will work). Your schematic should include file types, program types (e.g., mapping program), and arrows between file types.
 ![Raw Read FastQC Quality](./<insert-file-name-here>)
