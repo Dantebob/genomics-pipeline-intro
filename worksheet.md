@@ -1,7 +1,7 @@
 # Genomics Pipeline Introduction Worksheet
 
 <!--- Write name below --->
-## Name: 
+## Name: Dante Celani 
 
 <!--- For this worksheet, answer the following questions --->
 
