@@ -13,16 +13,16 @@ Answer: a bioinformatics pipeline is an algorithm that processes sequences. If t
 Answer: Fata/fastq, SAM/BAM, and VCF (variant call format)
 
 ## Q2: What does a general bioinformatics pipeline look like? Draw a schematic of a pipeline (using boxes and arrows) and add the image file name to the <insert-file-name-here> text below (png or jpg will work). Your schematic should include file types, program types (e.g., mapping program), and arrows between file types.
-![Raw Read FastQC Quality](./<insert-file-name-here>)
+![Raw Read FastQC Quality](./<general_bioinformatics_pipeline.png>)
 
 ## Q3: Using information from the genomics-pipeline-intro.sh script and [Farkas et al., 2021](https://doi.org/10.3389/fmicb.2021.665041), draw another schematic specific to their study showing file types, program types (use specific program names in this schematic), and arrows between file types. Add the image file name to the <insert-file-name-here> text below.
-![Raw Read FastQC Quality](./<insert-file-name-here>)
+![Raw Read FastQC Quality](./<more_specific_bioinformatics_pipeline.png>)
 
 ## Q4: After running the genomics-pipeline-intro.sh script, how many variants are in merged.vcf?
-Answer: 
+Answer: 1597 (probably not correct)
 
 ## Q5: What is the alternate allele depth of sample SRR11621811|unknown at site 25350 in contig NC_045512.2?
-Answer:
+Answer: that .sra file looks like a mess right now full of @
 
 ## Q6: In what ways would you consider filtering the VCF? In other words, what criteria would you use to remove variants / genotypes from the dataset?
-Answer:
+Answer: If a variant had a really low quality score I'd remove it.
