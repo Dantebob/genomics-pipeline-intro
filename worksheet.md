@@ -22,7 +22,9 @@ Answer: Fata/fastq, SAM/BAM, and VCF (variant call format)
 Answer: 1640
 
 ## Q5: What is the alternate allele depth of sample SRR11621811|unknown at site 25350 in contig NC_045512.2?
-Answer:  7  " grep 'NC_045512.2' SRR11621811.bam.freebayes.vcf "
+Answer:  DPRA = 0
+" grep 'NC_045512.2' SRR11621811.bam.freebayes.vcf "
+##INFO=<ID=DPRA,Number=A,Type=Float,Description="Alternate allele depth ratio
 
 ## Q6: In what ways would you consider filtering the VCF? In other words, what criteria would you use to remove variants / genotypes from the dataset?
 Answer: If a variant had a really low quality score I'd remove it.
